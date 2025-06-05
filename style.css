@@ -449,7 +449,7 @@ nav a:hover::after {
 }
 
 .article {
-  flex: 0 0 26%; /* narrower cards */
+  flex: 0 0 19%; /* narrower cards */
   background: #f9f9f9;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
