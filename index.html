@@ -1,524 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Md Mazharul Islam | Portfolio</title>
-    <style>
-        /* Global Styles */
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f5f5f7;
-            color: #1c1c1e;
-        }
-
-        header {
-            text-align: center;
-            padding: 2rem;
-            background-color: #121212;
-            color: white;
-        }
-
-        header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 1rem;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-        }
-
-        main {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-
-        section {
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        }
-
-        section h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-        }
-
-        .experience, .education, .project {
-            margin-bottom: 1.5rem;
-        }
-
-        .experience h3, .education h3, .project h3 {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-            color: #121212;
-        }
-
-        .experience p, .education p, .project p {
-            margin: 0;
-            font-size: 0.9rem;
-            color: #3a3a3c;
-        }
-
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1rem;
-        }
-
-        .project {
-            padding: 1rem;
-            border: 1px solid #e5e5ea;
-            border-radius: 8px;
-        }
-
-        .project img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #121212;
-            color: white;
-        }
-
-        a {
-            color: #121212;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .contact {
-            margin-top: 1rem;
-        }
-
-        .contact a {
-            display: inline-block;
-            margin: 0.5rem;
-            color: #fff;
-        }
-
-        .contact a img {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
-        }
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/appgrid.css" />
+  </head>
+  <body>
     <header>
-        <img src="profile.jpg" alt="Md Mazharul Islam">
-        <h1>Md Mazharul Islam</h1>
-        <p>Senior Software Engineer (iOS)</p>
+      <img src="profile.jpg" alt="Md Mazharul Islam" />
+      <h1>Md Mazharul Islam</h1>
+      <p>Senior Software Engineer (iOS)</p>
     </header>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am an experienced iOS developer with a strong foundation in creating high-quality, scalable mobile applications. Proficient in Swift, Objective-C, SwiftUI, and UIKit, I specialize in building intuitive and performant user interfaces while adhering to modern architectural patterns like MVVM, MVC, and Clean Architecture.
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am an experienced iOS developer with a strong foundation in creating
+          high-quality, scalable mobile applications. Proficient in Swift,
+          Objective-C, SwiftUI, and UIKit, I specialize in building intuitive
+          and performant user interfaces while adhering to modern architectural
+          patterns like MVVM, MVC, and Clean Architecture. With a deep
+          understanding of API integration, including REST and GraphQL, I ensure
+          seamless communication between client and server systems. My expertise
+          also extends to implementing CI/CD pipelines, managing dependencies
+          using tools like CocoaPods and Swift Package Manager, and leveraging
+          version control systems for efficient collaboration. I am passionate
+          about crafting solutions that prioritize user experience and
+          maintainability. I thrive on solving complex technical challenges,
+          optimizing application performance, and staying at the forefront of
+          emerging technologies. Committed to continuous improvement, I take
+          pride in delivering applications that align with both user needs and
+          business objectives.
+        </p>
+      </section>
+      <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="experience">
+          <img src="images/northprim.jpeg" alt="Northprim Logo" />
+          <div class="experience-details">
+            <h3>Senior iOS Engineer - Northprim</h3>
+            <p><i>Stockholm, Sweden (Remote) | June 2023 - Present</i></p>
+            <p>
+              Leading the development of cutting-edge iOS applications,
+              optimizing app performance to ensure best practices.
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="images/durbinHealth.jpeg" alt="Durbin HealthTech Logo" />
+          <div class="experience-details">
+            <h3>iOS Developer - Durbin HealthTech</h3>
+            <p><i>Dhaka, Bangladesh | Feb 2022 - May 2023</i></p>
+            <p>
+              Developed scalable iOS applications with responsive UI designs and
+              ensured secure data practices in healthcare technology.
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="images/durbinLabs.jpeg" alt="Durbin Labs Logo" />
+          <div class="experience-details">
+            <h3>Junior iOS Developer - Durbin Labs Ltd</h3>
+            <p><i>Dhaka, Bangladesh | Nov 2019 - Jan 2022</i></p>
+            <p>
+              Collaborated with senior developers to deliver high-quality iOS
+              apps, ensuring responsive UI designs and secure data handling.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>🛠️ Skills</h2>
+        <ul class="skills-list">
+          <li>
+            <strong>💻 Languages & Tools</strong> Swift, Objective-C, C, C++,
+            Dart, Python, Xcode, Instruments, Git, Visual Studio, CodeBlocks,
+            NetBeans
+          </li>
+          <li>
+            <strong>🎨 Frameworks & UI</strong> UIKit, SwiftUI, Combine,
+            Alamofire, Firebase, SocketIO, WebRTC, CallKit, Zoom VideoSDK, Apple
+            Pay, CorvusPay, bKash, PortWallet
+          </li>
+          <li>
+            <strong>🏗️ App Architecture & Patterns</strong> MVC, MVVM, Clean
+            Architecture, Factory Pattern, Repository Pattern, Modularization,
+            Dependency Injection (DI), SOLID Principles
+          </li>
+          <li>
+            <strong>🗄️ Persistence & Databases:</strong> Keychain (encrypted),
+            UserDefaults, Core Data, Realm, SQLite, MySQL, SQLite, MySQL, Oracle
+          </li>
+          <li>
+            <strong>🌐 Networking & iOS Expertise</strong> RESTful APIs,
+            URLSession, Alamofire, Combine, async/await, GraphQL, WebSockets,
+            App Store Publishing, In-App Purchases, Push Notifications
+          </li>
+          <li>
+            <strong>⚙️ Concurrency & Core Skills</strong> Grand Central Dispatch
+            (GCD), Swift Concurrency, Memory Management, Threading, Async
+            Programming, Data Structures & Algorithms (DSA), Problem Solving,
+            Security Best Practices
+          </li>
+          <li>
+            <strong>🧪 Testing & Debugging</strong> XCTest, XCUITest, JUnit,
+            Snapshot Testing, Mocking, Test-Driven Development (TDD),
+            Instruments, Memory Leak Detection, Crashlytics
+          </li>
+          <li>
+            <strong>📦 CI/CD & Dependency Management</strong> GitHub Actions,
+            Xcode Cloud, Fastlane, CocoaPods, Swift Package Manager (SPM),
+            Carthage, Dependency Injection
+          </li>
+          <li>
+            <strong>🔧 Version Control</strong> Git, GitHub, GitLab, Bitbucket,
+            Git Flow, Code Review & Merge Strategies
+          </li>
+          <li>
+            <strong>🤝 Soft Skills & Project Management</strong> Scrum, Agile,
+            Jira, Cross-functional Collaboration, Technical Documentation,
+            Mentorship, Communication
+          </li>
+        </ul>
+      </section>
 
-With a deep understanding of API integration, including REST and GraphQL, I ensure seamless communication between client and server systems. My expertise also extends to implementing CI/CD pipelines, managing dependencies using tools like CocoaPods and Swift Package Manager, and leveraging version control systems for efficient collaboration.
+      <section id="projects">
+        <h2>Apps</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <a
+              href="https://apps.apple.com/us/app/edoktor/id1562838044"
+              target="_blank"
+              class="project-link"
+            >
+              <img src="images/Apps/edoktor.png" alt="eDoktor App" />
+              <h3>eDoktor</h3>
+            </a>
 
-I am passionate about crafting solutions that prioritize user experience and maintainability. I thrive on solving complex technical challenges, optimizing application performance, and staying at the forefront of emerging technologies. Committed to continuous improvement, I take pride in delivering applications that align with both user needs and business objectives.</p>
-        </section>
-        <section id="experience">
-            <h2>Work Experience</h2>
-              <div class="experience">
-                <h3>Senior iOS Engineer - Northprim</h3>
-                <p><i>Stockholm, Sweden (Remote) | June 2023 - Present</i></p>
-                <p>Leading the development of cutting-edge iOS applications, optimizing app performance to ensure best practices.</p>
-                <a href="https://www.northprim.com" target="_blank">
-                    <img src="images/northprim.jpeg" alt="northprim" style="width:50px; height:auto;">
-                </a>
-                
+            <p>
+              Telemedicine app with secure video calls, flexible scheduling, and
+              at-home healthcare services.
+            </p>
+          </div>
 
+          <div class="project-card">
+            <a
+              href="https://apps.apple.com/us/app/dial/id1641860957"
+              target="_blank"
+              class="project-link"
+            >
+              <img src="images/Apps/dial.png" alt="Dial App" />
+              <h3>Dial</h3>
+            </a>
+            <p>
+              A privacy-focused calling app that simplifies international
+              dialing and ensures secure, high-quality voice connections across
+              the globe.
+            </p>
+          </div>
 
-</div>
+          <div class="project-card">
+            <a href="https://natronz.com" target="_blank" class="project-link">
+              <img src="images/Apps/nz.webp" alt="NZ Chat" />
+              <h3>NZ Chat</h3>
+            </a>
+            <p>
+              A secure messaging and calling app with end-to-end encryption and
+              a built-in AI chatbot for smart conversations.
+            </p>
+          </div>
 
+          <div class="project-card">
+            <a
+              href="https://apps.apple.com/us/app/bible-holy-messenger/id6746357178"
+              target="_blank"
+              class="project-link"
+            >
+              <img src="images/Apps/bm.png" alt="Bible Messenger" />
+              <h3>Bible Messenger</h3>
+            </a>
+            <p>
+              A daily faith companion offering Bible study plans, affirmations,
+              verse finder, and spiritual guidance to grow your journey.
+            </p>
+          </div>
 
+          <div class="project-card">
+            <a
+              href="https://apps.apple.com/us/app/customization-diamond-finder/id6745950927"
+              target="_blank"
+              class="project-link"
+            >
+              <img
+                src="images/Apps/df.png"
+                alt="Customization Diamond Finder"
+              />
+              <h3>Customization Diamond Finder</h3>
+            </a>
+            <p>
+              An all-in-one AI tool for sandbox games — find diamonds, customize
+              visuals, and optimize your survival or creative gameplay.
+            </p>
+          </div>
 
-<div class="experience">
-    <h3>iOS Developer - Durbin HealthTech</h3>
-    <p>Dhaka, Bangladesh | Feb 2022 - May 2023</p>
-    <p>Developed scalable iOS applications with responsive UI designs and ensured secure data practices in healthcare technology.</p>
-    <a href="https://www.durbinhealthtech.com" target="_blank">
-        <img src="images/durbinHealth.jpeg" alt="Durbin HealthTech Logo" style="width:50px; height:auto;">
-    </a>
-</div>
+          <div class="project-card">
+            <a
+              href=" https://apps.apple.com/app/id1527856414"
+              target="_blank"
+              class="project-link"
+            >
+              <img src="images/Apps/vvmail.png" alt="VVMail" />
+              <h3>VVMail</h3>
+            </a>
 
-<div class="experience">
-    <h3>Junior iOS Developer - Durbin Labs Ltd.</h3>
-    <p>Dhaka, Bangladesh | Nov 2019 - Jan 2022</p>
-    <p>Collaborated with senior developers to deliver high-quality iOS apps, ensuring responsive UI designs and secure data handling.</p>
-    <a href="https://www.durbinlabs.com" target="_blank">
-        <img src="images/durbinLabs.jpeg" alt="Durbin Labs Logo" style="width:50px; height:auto;">
-    </a>
-</div>
+            <p>
+              Send video and voice messages instantly to contacts without
+              typing.
+            </p>
+          </div>
 
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <section id="skills">
-    
-    <ul>
-        <li><strong>iOS Development:</strong> Proficient in Swift, Objective-C, SwiftUI, and UIKit. Expertise in developing scalable and high-performance iOS applications. Skilled in designing and implementing programmatic UI and Auto Layout.</li>
-        <li><strong>Architecture and Design Patterns:</strong> In-depth knowledge of MVVM, MVC, and Clean Architecture. Experience in modularizing codebases for maintainability and scalability. Strong focus on reusable components and best coding practices.</li>
-        <li><strong>API Integration:</strong> Extensive experience working with REST APIs, GraphQL, and JSON data formats. Skilled in handling complex network operations and real-time data synchronization.</li>
-        <li><strong>UI/UX Design:</strong> Expertise in creating intuitive, responsive, and visually appealing user interfaces. Deep understanding of Apple’s Human Interface Guidelines (HIG). Experience in accessibility optimization and dynamic type handling.</li>
-        <li><strong>Testing and Debugging:</strong> Proficient in XCTest for unit and UI testing. Expertise in identifying and resolving performance bottlenecks and memory leaks. Skilled in profiling and debugging using Instruments and other diagnostic tools.</li>
-        <li><strong>Dependency Management:</strong> Proficient with CocoaPods, Swift Package Manager (SPM), and Carthage for managing libraries and dependencies.</li>
-        <li><strong>Version Control and Collaboration:</strong> Expertise in Git, GitHub, GitLab, and Bitbucket for source control and team collaboration. Skilled in managing branching strategies and resolving merge conflicts.</li>
-        <li><strong>Continuous Integration/Delivery (CI/CD):</strong> Experience with tools like Fastlane, Jenkins, and GitHub Actions for automating build, test, and release pipelines. Skilled in deploying apps to App Store Connect and managing beta releases with TestFlight.</li>
-        <li><strong>Performance Optimization:</strong> Proficient in optimizing app startup times, memory usage, and CPU performance. Skilled in ensuring smooth animations and responsive UI.</li>
-        <li><strong>Additional Skills:</strong> Agile Development (Scrum, Kanban), cross-functional collaboration, problem-solving, and strong communication skills for technical and non-technical stakeholders.</li>
-    </ul>
-</section>
+          <div class="project-card">
+            <a
+              href="https://apps.apple.com/us/app/addons-crafting-for-minecraft/id6740599994"
+              target="_blank"
+              class="project-link"
+            >
+              <img src="images/Apps/addons.png" alt="Addons & Mods Hub" />
+              <h3>Addons & Mods Hub</h3>
+            </a>
 
-      
+            <p>
+              Game customization app with mods, skins, and in-app purchases
+              using StoreKit integration.
+            </p>
+          </div>
 
+          <div class="project-card">
+            <a
+              href="https://www.facebook.com/doctordekhao/"
+              target="_blank"
+              class="project-link"
+            >
+              <img src="images/Apps/dd.png" alt="Doctor Dekhao" />
+              <h3>Doctor Dekhao</h3>
+            </a>
+            <p>
+              A healthcare platform connecting patients with verified doctors
+              online — book appointments, get consultations, and manage your
+              health from anywhere.
+            </p>
+          </div>
 
-        <section id="projects">
-            <h2>Apps</h2>
-            <div class="projects">
-                <div class="project">
-                    <img src="images/Apps/edoktor.png" alt="eDoktor">
-                    <h3>eDoktor</h3>
-                    <p>eDoktor is Telemedicine App that offers secure video calls, flexible scheduling, and a wide range of features for comprehensive at-home healthcare.</p>
-                   
-                </div>
-                <div class="project">
-                    <img src="images/Apps/durbinHealth.webp" alt="Project 2">
-                    <h3>Du Healthtech</h3>
-                    <p>DU HealthTech is a telehealth app providing online consultations, e-prescriptions, and medication reminders for seamless patient care.</p>
-                  
-                </div>
+          <div class="project-card">
+            <img src="images/Apps/durbinHealth.webp" alt="Du Healthtech" />
+            <h3>Du Healthtech</h3>
+            <p>
+              Telehealth app providing online consultations, e-prescriptions,
+              and medication reminders.
+            </p>
+          </div>
+          <div class="project-card">
+            <img src="images/Apps/ducomm.png" alt="DuComm" />
+            <h3>DuComm</h3>
+            <p>
+              Free communication app with messaging, video calls, SIP/VoIP
+              support, and monitoring tools.
+            </p>
+          </div>
+          <div class="project-card">
+            <img src="images/Apps/pager.png" alt="eDesk" />
+            <h3>eDesk</h3>
+            <p>
+              HR and employee platform for task management, payroll, and
+              performance monitoring.
+            </p>
+          </div>
+          <div class="project-card">
+            <img src="images/Apps/classroom.png" alt="Durbin Classroom" />
+            <h3>Durbin Classroom</h3>
+            <p>
+              Low-bandwidth education app for rural learning, designed to
+              support virtual classes.
+            </p>
+          </div>
+        </div>
+      </section>
 
-
-
-
-<div class="project">
-                    <img src="images/Apps/ducomm.png" alt="Project 2">
-                    <h3>DuComm</h3>
-                    <p>DuComm is a free communication app offering instant messaging, voice and video calling, SIP/VoIP support, and a monitoring panel</p>
-                   
-                </div>
-
-
+      <section id="article-slider-section">
+        <h2>Articles</h2>
+        <div class="article-slider-wrapper">
+          <div class="article-slider">
+            <div class="article">
+              <img src="images/solid.png" alt="SOLID Principle" />
+              <h3>SOLID Principle Example with Swift</h3>
+              <p>
+                The SOLID principle is key to writing clean, maintainable code.
+                This article explains each principle with clear Swift
+                examples—both good and bad.
+                <a
+                  href="https://medium.com/@mazharul.belal/solid-principle-example-with-swift-96fa5a3ed400"
+                  target="_blank"
+                  >Read full article</a
+                >
+              </p>
+            </div>
+            <div class="article">
+              <img src="images/unit.png" alt="Unit Testing" />
+              <h3>Unit Testing in Swift</h3>
+              <p>
+                Unit testing helps verify that small parts of your Swift code
+                work as expected. This article uses a simple app,
+                <em>EasyCalculator</em>, to demonstrate basic testing with
+                XCTest.
+                <a
+                  href="https://medium.com/@mazharul.belal/what-is-unit-testing-in-swift-26bb932d8fb4"
+                  target="_blank"
+                  >Read full article</a
+                >
+              </p>
+            </div>
+            <div class="article">
+              <img src="images/closurs.png" alt="Closures in Swift" />
+              <h3>Understanding Closures in Swift</h3>
+              <p>
+                Closures are an important feature in Swift. They can be used as
+                variables, function return types, and function parameters.
+                <a
+                  href="https://medium.com/@mazharul.belal/understanding-closures-in-swift-9a418818d452"
+                  target="_blank"
+                  >Read full article</a
+                >
+              </p>
             </div>
 
-
-
-
-
-
- <div class="projects">
-                <div class="project">
-                    <img src="images/Apps/pager.png" alt="Project 1">
-                    <h3>eDesk</h3>
-                    <p>eDask is an employee and HR management platform for task management, attendance tracking, payroll, and performance monitoring, streamlining workplace operations.</p>
-                   
-                </div>
-                <div class="project">
-                    <img src="images/Apps/classroom.png" alt="Project 2">
-                    <h3>Durbin Classroom </h3>
-                    <p>Durbin Classroom is a low-bandwidth platform aimed at improving rural education with virtual lessons. It is designed to support learning during the pandemic and is under consideration by Bangladesh's Ministry of Education.</p>
-                    
-                </div>
-
-
-
-
-<div class="project">
-                    <img src="images/Apps/vvmail.png" alt="Project 2">
-                    <h3>VVMail</h3>
-                    <p>With VVMail you can send video and voice messages to your favorite contacts. Make quick video and voice communications without having to use your keyboard.</p>
-                  
-                </div>
-
-
-
-     <div class="project">
-                    <img src="images/Apps/addons.png" alt="Project 2">
-                    <h3>Addons & Mods Hub</h3>
-                    <p>Addons & Mods Hub is a mobile app that offers a vast library of mods, skins, and tools for popular games with one-click installation, previews, and user reviews. It features premium content, customization tools, and StoreKit integration for monetization.</p>
-                  
-                </div>
-
-
-
-
-                
-
-
-
-
-
-     
+            <div class="article">
+              <img src="images/sc.png" alt="Static vs class variable swift" />
+              <h3>static vs class variable swift</h3>
+              <p>
+                In Swift, we use static and class to define properties and
+                methods that belong to the type itself. This means you canaccess
+                them without creating an instance of the class or struct.
+                <a
+                  href="https://medium.com/@mazharul.belal/static-vs-class-variable-swift-9a887d98f13e"
+                  target="_blank"
+                  >Read full article</a
+                >
+              </p>
             </div>
 
-            <h2>Articles</h2>
-            <div class="projects">
-                <div class="project">
-                    <img src="images/solid.png" alt="eDoktor">
-                    <h3>SOLID Principle Example with Swift</h3>
-                    <p>
-                        The SOLID principle is key to writing clean, maintainable code. This article explains each principle with clear Swift examples—both good and bad.
-                        <a href="https://medium.com/@mazharul.belal/solid-principle-example-with-swift-96fa5a3ed400" target="_blank">Read full article</a>
-                      </p>
-                      
-                   
-                </div>
-                <div class="project">
-                    <img src="images/unit.png" alt="Project 2">
-                    <h3>Unit Testing in Swift</h3>
-                    <p>
-                        Unit testing helps verify that small parts of your Swift code work as expected. This article uses a simple app, <em>EasyCalculator</em>, to demonstrate basic testing with XCTest.
-                        <a href="https://medium.com/@mazharul.belal/what-is-unit-testing-in-swift-26bb932d8fb4" target="_blank">Read full article</a>
-                      </p>
-                      
-                  
-                </div>
-                <div class="project">
-                    <img src="images/closurs.png" alt="Project 2">
-                    <h3>Understanding Closures in Swift</h3>
-                    <p>
-                        Closures are an important feature in Swift. They can be used as variables, function return types, and function parameters.
-                        <a href="https://medium.com/@mazharul.belal/understanding-closures-in-swift-9a418818d452" target="_blank">Read full article</a>
-                      </p>
-                      
-                  
-                </div>
-
-
-
-
-        </section>
-
-
-        
+            <!-- You can add more articles here -->
+          </div>
+        </div>
+        <button id="btn-prev-article" aria-label="Previous Article" disabled>
+          ‹
+        </button>
+        <button id="btn-next-article" aria-label="Next Article">›</button>
+      </section>
+      <section id="hire-me">
+        <h2>Hire Me on Upwork</h2>
+        <p>
+          With a proven track record of successfully completing 12 projects and
+          maintaining a 100% job success rate, I am dedicated to delivering
+          high-quality iOS development solutions. If you are seeking a highly
+          experienced and reliable iOS developer to bring your app vision to
+          life, please feel free to visit my Upwork profile. I look forward to
+          the opportunity to collaborate and build exceptional applications
+          together.
+        </p>
+        <a
+          href="https://www.upwork.com/freelancers/~01eff9a31fdeb48d2f"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-upwork"
+        >
+          Visit My Upwork Profile
+        </a>
+      </section>
     </main>
     <footer>
-        <p>Contact:</p>
-        <div class="contact">
-            <a href="mailto:mazharul.belal@gmail.com"><img src="images/Apps/mail.png" alt="Email"> Email</a>
-            <a href="https://www.linkedin.com/in/mazharul-belal/"><img src="images/Apps/linkedin.png" alt="LinkedIn">  LinkedIn</a>
+      <section id="contact-section">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <a
+            href="mailto:mazharul.belal@gmail.com"
+            class="contact-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="images/Apps/mail.png" alt="Email Icon" />
+            <span>Email</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mazharul-belal/"
+            class="contact-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="images/Apps/linkedin.png" alt="LinkedIn Icon" />
+            <span>LinkedIn</span>
+          </a>
         </div>
-        <p>&copy; 2024 Md Mazharul Islam</p>
+        <p class="copyright">&copy; 2024 Md Mazharul Islam</p>
+      </section>
     </footer>
-</body>
+    <script src="js/articles-slider.js" defer></script>
+  </body>
 </html>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md Mazharul Islam - Portfolio</title>
-    <style>
-        /* Elegant color scheme */
-        :root {
-            --primary: #1a1a2e;
-            --secondary: #4a90e2;
-            --accent: #16a085;
-            --text: #2c3e50;
-            --background: #f8f9fa;
-            --gradient: linear-gradient(135deg, #1a1a2e 0%, #16222A 100%);
-        }
-
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background: var(--background);
-            color: var(--text);
-            line-height: 1.7;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* Modern Header with Gradient */
-        header {
-            background: var(--gradient);
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-            position: relative;
-            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 3rem;
-            font-weight: 600;
-            animation: slideInDown 1s ease-out;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-
-        header p {
-            font-size: 1.2rem;
-            opacity: 0;
-            animation: fadeIn 1s ease-out forwards;
-            animation-delay: 0.5s;
-        }
-
-        /* Glass-morphism Navigation */
-        nav {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 1rem;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 3rem;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav a {
-            color: var(--text);
-            text-decoration: none;
-            font-weight: 500;
-            position: relative;
-            padding: 0.5rem 0;
-        }
-
-        nav a::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--secondary);
-            transition: width 0.3s ease;
-        }
-
-        nav a:hover::after {
-            width: 100%;
-        }
-
-        /* Modern Projects Section */
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2.5rem;
-            padding: 3rem;
-        }
-
-        .project {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            position: relative;
-        }
-
-        .project:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-        }
-
-        .project img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            transition: transform 0.5s;
-        }
-
-        .project:hover img {
-            transform: scale(1.05);
-        }
-
-        .project h3 {
-            color: var(--primary);
-            margin: 1.5rem;
-            font-size: 1.4rem;
-        }
-
-        .project p {
-            margin: 1.5rem;
-            color: #666;
-            font-size: 0.95rem;
-        }
-
-        .project a {
-            color: var(--secondary);
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s;
-            position: relative;
-        }
-
-        .project a:hover {
-            color: var(--accent);
-            padding-left: 5px;
-        }
-
-        /* Enhanced Animations */
-        @keyframes slideInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        /* Responsive Improvements */
-        @media (max-width: 768px) {
-            header {
-                padding: 3rem 1rem;
-                clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-            }
-
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-            }
-
-            .projects {
-                padding: 1.5rem;
-                gap: 1.5rem;
-            }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-
+<html lang="en"></html>
